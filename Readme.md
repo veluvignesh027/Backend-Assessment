@@ -1,11 +1,14 @@
 **Project Name:**
     Backend Assessment
+
+
 **Overview:**
     This project uses Docker and Go to manage and run a web application which loads csv data into postgres DB
 
 
-**Makefile Commands:**
 
+
+**Makefile Commands:**
 The following commands are available in the Makefile:
 
 docker-run
@@ -28,12 +31,15 @@ This command cleans up the project by removing the compiled binary file named ma
 
 Usage: _make clean_
 
+
+
 **Prerequisites:**
 
 Docker: Ensure that Docker is installed and running on your machine.
 Docker Compose: Make sure Docker Compose is installed. This Makefile is compatible with both Docker Compose V1 and V2.
 Go: Ensure that Go is installed on your machine if you plan to run the Go application directly.
 Make: Ensure make is installed
+
 
 
 **Getting Started:**
@@ -51,6 +57,8 @@ Make: Ensure make is installed
     2. Install all the Prerequisites
     3. make docker-run
     4. make run
+
+
 
 
 **REST API ENDPOINT:**
